@@ -1,0 +1,204 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+#score {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  margin-top:  50px;
+  color: #FEF2BF;
+  margin-bottom: 50px;
+}
+
+#player1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  /* margin: auto; */
+  color: #FEF2BF;
+  margin-bottom: 40px;
+}
+
+#who {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  /* margin: auto; */
+  color: #FEF2BF;
+  margin-bottom: 50px;
+}
+
+#player2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  /* margin-top:  50px; */
+  color: #FEF2BF;
+}
+
+#player3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  /* margin-top:  50px; */
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.reset {
+  /* margin: 25px; */
+  height: 60px;
+  width: 220px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color:#FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.myScore {
+  margin: 10px;
+  height: 60px;
+  width: 220px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color:#FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+@media (max-width: 1168px) {
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+}
+
+@media  (max-width: 908px) {
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20%;
+  }
+}
+
+@media  (max-width: 668px) {
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 5px solid black;
+    border-radius: 20%;
+  }
+
+  @media  (max-width: 468px) {
+    .btn {
+      margin: 5px;
+      display: inline-block;
+      height:60px;
+      width: 60px;
+      border: 5px solid black;
+      border-radius: 20%;
+    }
+  }
+
+  #level-title{
+    font-size: 1.5rem;
+  }
+
+  #score {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #player1 {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    margin-top:10px;
+  }
+
+  #who {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top:10px;
+  }
+  .reset {
+    /* margin: 25px; */
+    height: 40px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color:#FEF2BF;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+  }
+
+  .myScore {
+    height: 40px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color:#FEF2BF;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+  }
+}
+/*  and  */
